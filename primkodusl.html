@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+        <title>Проект</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<ul class="menu">
+					<li><a href="index.html" >Главная</a></li>
+					<li><a href="history.html">История</a>
+					<li><a href="">Python</a>
+						<ul>
+							<li><a href="vvod.html">Ввод и вывод данных</a></li>
+							<li><a href="uslovie.html">Условия</a></li>
+							<li><a href="vychisl.html">Вычисления</a></li>
+							<li><a href="for.html">Цикл for</a></li>
+						</ul>
+					</li>
+					<li><a href="kontakt.html">Контакты</a></li>
+					<li><a href="uslovie.html">Назад</a></li>
+		</ul>
+	</header><!-- .header-->
+<p><br><p>
+	<main class="content"><h2><a name='kod1.1'>Код 1.1</h2></a><br><p>x = int(input())
+<br>if x > 0:
+<br>       print(x)
+<br>else:
+<br>        print(-x)</p>
+<br>
+<br><h2><a name='kod1.2'>Код 1.2</a></h2><br>
+<p> x = int(input())
+<br>if x < 0:
+<br>        x = -x
+<br>print(x)<p>
+<br>
+<br><h2><a name='kod2.1'>Код 2.1</a></h2><br>
+<p>x = int(input())    
+<br>y = int(input())
+<br>if x > 0:
+<br>        if y > 0:               # x > 0, y > 0
+<br>                print("Первая четверть")
+<br>        else:                   # x > 0, y < 0
+<br>                print("Четвертая четверть")
+<br>else:
+<br>        if y > 0:               # x < 0, y > 0
+<br>                print("Вторая четверть")
+<br>        else:                   # x < 0, y < 0
+<br>                print("Третья четверть")</p>
+<br>
+<br><h2><a name='kod4.1'>Kod 4.1</a></h2><br>
+<p>a = int(input())
+<br>b = int(input())
+<br>if a % 10 == 0 or b % 10 == 0:
+<br>        print('YES')
+<br>else:
+<br>        print('NO')
+<br>
+<br><h2><a name='kod5'>Kod 5</a></h2>
+<br><p>x = int(input())
+<br>y = int(input())
+<br>if x > 0 and y > 0:
+<br>        print("Первая четверть")
+<br>elif x > 0 and y < 0:
+ <br>       print("Четвертая четверть")
+<br>elif y > 0:
+<br>        print("Вторая четверть")
+<br>else:
+<br>        print("Третья четверть")
+	</main><!-- .content -->
+
+	<footer class="footer">
+ Проект создан при поддержке меня
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+	</body>
+</html>

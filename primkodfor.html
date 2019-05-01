@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+        <title>Проект</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<ul class="menu">
+					<li><a href="index.html" >Главная</a></li>
+					<li><a href="history.html">История</a>
+					<li><a href="">Python</a>
+						<ul>
+							<li><a href="vvod.html">Ввод и вывод данных</a></li>
+							<li><a href="uslovie.html">Условия</a></li>
+							<li><a href="vychisl.html">Вычисления</a></li>
+							<li><a href="for.html">Цикл for</a></li>
+						</ul>
+					</li>
+					<li><a href="kontakt.html">Контакты</a></li>
+					<li><a href="for.html">Назад</a></li>
+		</ul>
+	</header><!-- .header-->
+<p><br><p>
+	<main class="content">
+		<h2><a name='kod11'>Код 1.1</a></h2><br>
+		<p>i = 1
+<br>    for color in 'red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'violet':
+<br>        print('#', i, ' color of rainbow is ', color, sep = '')
+<br>        i += 1</p>
+<br>
+<br><h2><a name='kod12'>Код 1.2</a></h2><br>
+<p>for i in 1, 2, 3, 'one', 'two', 'three':
+<br>        print(i)</p>
+<br><br><h2><a name='kod21'>Код 2.1</a></h2><br>
+<p>for i in range(4):  # равносильно инструкции for i in 0, 1, 2, 3:
+<br>        # здесь можно выполнять циклические действия
+<br>        print(i)
+<br>        print(i ** 2)
+<br># цикл закончился, поскольку закончился блок с отступом
+<br>print('Конец цикла')</p>
+<br><br><h2><a name='kod22'>Код 2.2</a></h2><br>
+<p>sum = 0
+<br>n = 5
+<br>for i in range(1, n + 1):
+<br>        sum += i
+<br>print(sum)</p>
+<br><br><h2><a name='kod3'>Код 3</a></h2><br>
+<p>print(1, 2, 3)
+<br>print(4, 5, 6)
+<br>print(1, 2, 3, sep=', ', end='. ')
+<br>print(4, 5, 6, sep=', ', end='. ')
+<br>print()
+<br>print(1, 2, 3, sep='', end=' -- ')
+<br>print(4, 5, 6, sep=' * ', end='.')
+</p>
+	</main><!-- .content -->
+
+	<footer class="footer">
+ Проект создан при поддержке меня
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+	</body>
+</html>
